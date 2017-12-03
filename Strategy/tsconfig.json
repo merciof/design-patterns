@@ -1,0 +1,12 @@
+{   
+    "files": [
+        "./ComportamentosGrasnar/Grasnar",
+        "./ComportamentosGrasnar/Chiar",
+        "./ComportamentosGrasnar/Mudo",
+        "./ComportamentosVoar/VoarComAsas",
+        "./ComportamentosVoar/NaoVoa",
+        "./Patos/Pato",
+        "./Patos/PatoAmarelo",
+        "main.ts"
+    ]
+}

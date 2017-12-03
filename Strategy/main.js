@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var PatoAmarelo_1 = require("./Patos/PatoAmarelo");
+var Grasnar_1 = require("./ComportamentosGrasnar/Grasnar");
+var NaoVoa_1 = require("./ComportamentosVoar/NaoVoa");
+var patoAmarelo = new PatoAmarelo_1.PatoAmarelo();
+console.log(patoAmarelo.exibir());
+console.log(patoAmarelo.executarGrasno());
+console.log(patoAmarelo.executarVoo());
+patoAmarelo.setComportamentoGrasnar(new Grasnar_1.Grasnar());
+patoAmarelo.setComportamentoVoar(new NaoVoa_1.NaoVoa());
+console.log(patoAmarelo.executarGrasno());
+console.log(patoAmarelo.executarVoo());
