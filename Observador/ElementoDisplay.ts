@@ -1,3 +1,3 @@
 export interface ElementoDisplay {
-    update(): void;
+    display(): void;
 }
